@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 12 - Quiz de Perguntas</title>
+  <link rel="stylesheet" href="Styles/Quiz_de_Perguntas.css">
+</head>
+<body>
+  <h1>Atividade 12 - Quiz de Perguntas</h1>
+
+  <section class="interativo">
+    <form id="quizForm">
+
+      <div class="pergunta">
+        <p>1. Qual a capital do Brasil?</p>
+        <label><input type="radio" name="q1" value="0"> Rio de Janeiro</label><br>
+        <label><input type="radio" name="q1" value="1"> Brasília</label><br>
+        <label><input type="radio" name="q1" value="0"> São Paulo</label>
+      </div>
+
+      <div class="pergunta">
+        <p>2. Qual é o resultado de 5 + 3?</p>
+        <label><input type="radio" name="q2" value="0"> 6</label><br>
+        <label><input type="radio" name="q2" value="1"> 8</label><br>
+        <label><input type="radio" name="q2" value="0"> 9</label>
+      </div>
+
+      <div class="pergunta">
+        <p>3. Qual linguagem usamos no navegador?</p>
+        <label><input type="radio" name="q3" value="1"> JavaScript</label><br>
+        <label><input type="radio" name="q3" value="0"> Python</label><br>
+        <label><input type="radio" name="q3" value="0"> Java</label>
+      </div>
+
+      <div class="pergunta">
+        <p>4. Qual o maior planeta do sistema solar?</p>
+        <label><input type="radio" name="q4" value="0"> Terra</label><br>
+        <label><input type="radio" name="q4" value="1"> Júpiter</label><br>
+        <label><input type="radio" name="q4" value="0"> Marte</label>
+      </div>
+
+      <div class="pergunta">
+        <p>5. Qual cor resulta da mistura de azul com amarelo?</p>
+        <label><input type="radio" name="q5" value="0"> Vermelho</label><br>
+        <label><input type="radio" name="q5" value="0"> Roxo</label><br>
+        <label><input type="radio" name="q5" value="1"> Verde</label>
+      </div>
+
+      <button type="button" onclick="calcularResultado()">Ver Resultado</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+
+<article class="Explicaçao">
+  <h3>Atividade 12 - Quiz de Perguntas</h3>
+  <p>Descrição:
+    Página interativa com um quiz contendo cinco perguntas de múltipla escolha. O usuário seleciona uma resposta para cada pergunta e, ao clicar no botão, o sistema calcula e exibe o total de acertos.
+  </p>
+  <span>Implementação com foco em manipulação de formulários HTML, uso de inputs tipo rádio e lógica condicional em JavaScript para avaliação das respostas.</span>
+  <span>Data realizada: 23/05/2025</span>
+</article>
+
+
+  <script src="Scripts/Quiz_de_Perguntas.js"></script>
+</body>
+</html>

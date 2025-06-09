@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="Styles/Validador_CPF.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verficador de <span>CPF</span> </h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Insira o seu cpf e veja se ele está <span>regular</span></h2>
+
+            </div>
+            <div>
+                <input id="cpf" type="number" placeholder="Informe o cpf">
+            </div>
+
+            <div>
+                <button onclick="verificarHtml()">Verificar!</button>
+            </div>
+            <div id="resultado"></div>
+
+        </section>
+    </main>
+    <article class="Esplicaçao">
+        <h3>Validador de CPF (simples)</h3>
+        <p>Descrição:
+            Desenvolva uma página onde o usuário possa inserir um número de CPF (apenas dígitos). Ao clicar
+            em "Validar", o sistema deve verificar se o CPF tem 11 dígitos e mostrar uma mensagem
+            informando se é válido ou não (validação simples, apenas quantidade de números).</p>
+        <span>Foi realizado com um JS simples, somente uma verificaçao para 11 caracter, junto com uma mensagem quando o usuario aplica 11 digitos
+            para alternar de cor com edição no css.
+        </span>
+        <span>Data realizada: 22/05/2025</span>
+    </article>
+    <script src="Scripts/Validador_CPF.js"></script>
+</body>
+
+</html>

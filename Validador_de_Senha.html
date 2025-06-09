@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 16 - Validador de Senha Forte</title>
+  <link rel="stylesheet" href="Styles/Validador_de_Senha.css">
+</head>
+<body>
+  <h1>Atividade 16 - Validador de Senha Forte</h1>
+
+  <section class="interativo">
+    <label for="senha">Digite sua senha:</label>
+    <input type="password" id="senha">
+    <button onclick="validarSenha()">Validar</button>
+
+    <div style="margin-top:10px;">
+      <input type="checkbox" id="mostrar" onclick="mostrarSenha()">
+      <label for="mostrar">Mostrar senha</label>
+    </div>
+
+    <div id="resultado"></div>
+  </section>
+
+  <article class="Explicaçao">
+  <h3>Atividade 16 - Validador de Senha Forte</h3>
+  <p>Descrição:
+    Página interativa onde o usuário digita uma senha e, ao clicar no botão, o sistema valida se a senha atende a critérios de segurança: mínimo 8 caracteres, letras maiúsculas e minúsculas, números e caracteres especiais. Exibe os resultados em tempo real.
+  </p>
+  <span>Implementação com HTML para a interface, CSS para o estilo e JavaScript para validar a senha com expressões regulares e alternar a visibilidade da senha.</span>
+  <span>Data realizada: 01/06/2025</span>
+</article>
+
+  <script src="Scripts/Validador_de_Senha.js"></script>
+</body>
+</html>

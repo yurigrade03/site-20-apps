@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 11 - Simulador de Caixa Eletrônico</title>
+  <link rel="stylesheet" href="Styles/Simulador_Caixa_Eletronico.css">
+</head>
+<body>
+  <h1>Atividade 11 - Simulador de Caixa Eletrônico</h1>
+
+  <section class="interativo">
+    <label for="valor">Digite o valor do saque:</label>
+    <input type="number" id="valor" min="2" step="1">
+    <button onclick="simularSaque()">Sacar</button>
+
+    <div id="resultado"></div>
+  </section>
+
+
+  <article class="Explicaçao">
+    <h3>Atividade 11 - Simulador de Caixa Eletrônico</h3>
+    <p>Descrição:
+        Página interativa onde o usuário informa o valor que deseja sacar e o sistema calcula a quantidade de notas 
+        necessárias para compor esse valor, utilizando notas de R$100, R$50, R$20, R$10, R$5 e R$2. 
+        Caso o valor não possa ser sacado exatamente (por falta da nota de R$1), o sistema informa o restante que não pode ser sacado.
+    </p>
+    <span>Implementação com foco em lógica de divisão e resto, usando JavaScript para interação dinâmica.</span>
+    <span>Data realizada: 23/05/2025</span>
+</article>
+
+  <script src="Scripts/Simulador_Caixa_Eletronico.js"></script>
+</body>
+</html>

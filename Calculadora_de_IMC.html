@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="Styles/Calculadora_de_IMC.css">
+</head>
+
+<body>
+    <header>CALCULADORA DE IMC</header>
+    <main>
+        <section>
+            <div>
+                <select class="Principal" id="genero" type="Genero">
+                    <option>Gênero</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                </select>
+            </div>
+            <div>
+                <input class="Principal" id="idAltura" type="number" placeholder="altura (Ex: 176)">
+            </div>
+            <div>
+                <input class="Principal" id="idPeso" type="number" placeholder="Peso (Ex: 60,5)">
+            </div>
+            <div>
+                <button onclick="CalcularIMCHtml()">Calcular IMC</button>
+            </div>
+            <div id="resultadoDiv"></div>
+        </section>
+
+    </main>
+    <article class="Esplicaçao">
+        <h3>Calculadora de IMC</h3>
+        <p>Descrição:
+            Crie uma página onde o usuário possa digitar seu peso (kg) e altura (m). Ao clicar em um botão, o
+            sistema deve calcular o Índice de Massa Corporal (IMC) usando a fórmula peso / (altura²) e
+            mostrar o resultado na tela, indicando se o usuário está abaixo do peso, com peso normal,
+            sobrepeso ou obesidade.</p>
+        <span>Esta atividade foi usado de base uma tarefa feita na primeira aula JS, assim replicando o conhecimento nela.
+        </span>
+        <span>Data realizada: 22/05/2025</span>
+    </article>
+    <script src="Scripts//Calculadora_de_IMC.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 04 - Conversor de Temperatura</title>
+  <link rel="stylesheet" href="Styles/Conversor_de_Temperatura.css">
+</head>
+<body>
+  <h1>Atividade 04 - Conversor de Temperatura</h1>
+
+
+  <section class="interativo">
+    <div class="bloco">
+      <label for="celsius">Celsius:</label>
+      <input type="number" id="celsius">
+      <button onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
+    </div>
+
+    <div class="bloco">
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input type="number" id="fahrenheit">
+      <button onclick="converterParaCelsius()">Converter para Celsius</button>
+    </div>
+
+    <div id="resultado"></div>
+  </section>
+
+  <article class="Explicaçao">
+    <h3>Atividade 04 - Conversor de Temperatura</h3>
+    <p>Descrição:
+        Página web interativa que permite ao usuário converter temperaturas entre Celsius e Fahrenheit. 
+        O usuário pode digitar um valor em Celsius para converter em Fahrenheit ou vice-versa, clicando nos botões correspondentes. 
+        O resultado da conversão é exibido dinamicamente na tela utilizando JavaScript.
+    </p>
+    <span>Design simples e intuitivo, com feedback imediato para entradas inválidas.</span>
+    <span>Data realizada: 23/05/2025</span>
+</article>
+
+
+  <script src="Scripts/Conversor_de_Temperatura.js"></script>
+</body>
+</html>

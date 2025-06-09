@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atividade 19 - Editor de Texto Simples</title>
+  <link rel="stylesheet" href="Styles/Editor_De_Texto.css" />
+</head>
+<body>
+  <h1>Atividade 19 - Editor de Texto Simples</h1>
+
+  <section class="interativo">
+    <div class="botoes">
+      <button onclick="formatarTexto('bold')" title="Negrito"><b>B</b></button>
+      <button onclick="formatarTexto('italic')" title="Itálico"><i>I</i></button>
+      <button onclick="formatarTexto('underline')" title="Sublinhado"><u>U</u></button>
+    </div>
+
+    <div id="editor" contenteditable="true" spellcheck="false" aria-label="Editor de texto simples"></div>
+  </section>
+  
+<article class="Explicaçao">
+  <h3>Atividade 19 - Editor de Texto Simples</h3>
+  <p>Descrição:
+    Página que apresenta um editor de texto simples onde o usuário pode aplicar formatações básicas como negrito, itálico e sublinhado no texto digitado diretamente em uma área editável.
+  </p>
+  <span>Implementação com HTML para estrutura, CSS para estilo dos botões e área de texto, e JavaScript que usa o comando execCommand para aplicar formatação ao conteúdo.</span>
+  <span>Data realizada: 01/06/2025</span>
+</article>
+
+  <script src="Scripts/Editor_De_Texto.js"></script>
+</body>
+</html>

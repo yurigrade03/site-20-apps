@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="Styles/Galeria_de_Imagens.css">
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de Imagens</h1>
+    </header>
+
+    <main>
+        <nav>
+            <button categoria="todas" id="Tds">Todas</button>
+            <button categoria="natureza" id="Nat">Natureza</button>
+            <button categoria="automovel" id="Aut">Automoveis</button>
+            <button categoria="tecnologia" id="Tec">Tecnologias</button>
+        </nav>
+        <section>
+            <img class="foto" src="assets/aut1.jpg" alt="" categoria="automovel">
+            <img class="foto" src="assets/aut2.jpg" alt="" categoria="automovel">
+            <img class="foto" src="assets/aut3.jpg" alt="" categoria="automovel">
+            <img class="foto" src="assets/aut4.jpg" alt="" categoria="automovel">
+            <img class="foto" src="assets/nat1.jpg" alt="" categoria="natureza">
+            <img class="foto" src="assets/nat2.jpg" alt="" categoria="natureza">
+            <img class="foto" src="assets/nat3.jpg" alt="" categoria="natureza">
+            <img class="foto" src="assets/nat4.jpg" alt="" categoria="natureza">
+            <img class="foto" src="assets/tec1.jpg" alt="" categoria="tecnologia">
+            <img class="foto" src="assets/tec2.jpg" alt="" categoria="tecnologia">
+            <img class="foto" src="assets/tec3.jpg" alt="" categoria="tecnologia">
+            <img class="foto" src="assets/tec4.jpg" alt="" categoria="tecnologia">
+        </section>
+
+    </main>
+    <article class="Esplicaçao">
+        <h3>Galeria de Imagens com Filtro</h3>
+        <p>Descrição:
+            Construa uma galeria de imagens com categorias (ex: natureza, tecnologia, pessoas). Crie botões
+            para filtrar e mostrar apenas imagens da categoria selecionada.
+        </p>
+        <span>
+            Ultizando um visual minimalista na pagina principal, onde no js foi criado as variaveir para puxar as funções dos botões,
+            e criado uma classificação na própria imagens, assim categorizando elas, para um laço no JS, fazendo com que ele aplique um display block nas imagens nao selicionadas no filtro para ocultar elas.
+        </span>
+        <span>Data realizada: 31/05/2025</span>
+    </article>
+
+    <script src="Scripts/Galeria_De_Imagens.js"></script>
+</body>
+
+</html>

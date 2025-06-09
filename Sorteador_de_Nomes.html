@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Nomes</title>
+    <link rel="stylesheet" href="Styles/Sorteador_de_Nomes.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sorteador de Nomes</h1>
+    </header>
+    <main>
+        <div id="Ajuste">
+            <p>Insira os nomes que voce que sortear: </p>
+            <textarea placeholder="(ANA, JULIA, PAULO, GABRIEL, ...)" id="nome"></textarea>
+            <button onclick="gerar()">Sortear</button>
+        </div>
+        <div id="resultado">
+
+        </div>
+    </main>
+    <article class="Esplicaçao">
+        <h3>Sorteador de Nomes</h3>
+        <p>Descrição:
+            Faça uma aplicação onde o usuário insira vários nomes em um campo e, ao clicar em "Sortear", o
+            sistema escolha aleatoriamente um nome para ser exibido</p>
+        <span>Esta atividade foi ussado um textarea, para receber os nomes, já no JS foi ultilizado apenas uma funçao,
+            onde ela
+            já recebe os nomes do text area e realiza uma separação dos nomes através de uma "," o que faz realizar o
+            sorteio de um nome
+            jogando na criaçao de uma div própia para o resultado.
+        </span>
+        <span>Data realizada: 24/05/2025</span>
+    </article>
+    <script src="Scripts/Sorteador_de_Nomes.js"></script>
+</body>
+
+</html>
