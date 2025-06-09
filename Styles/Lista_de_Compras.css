@@ -1,0 +1,115 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    text-align: center;
+    height: 20vh;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #F7F7F7;
+
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Botao1 {
+    color: #fff;
+    background-color: darkblue;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+
+}
+
+input {
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    width: 20vw
+}
+
+#quant {
+    width: 5vw;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: white;
+    margin: 20px;
+    padding: 15px 20px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 2px #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.quantidade {
+    min-width: 40px;
+}
+
+.texto {
+    flex: 1;
+
+}
+
+button {
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.Esplicaçao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 60vw;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 8px;
+    gap: 8px;
+}
+
+.Esplicaçao>p {
+    color: gray;
+
+}
+
+.Esplicaçao>h3 {
+    color: green;
+    text-align: center;
+}

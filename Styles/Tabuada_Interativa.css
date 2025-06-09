@@ -1,0 +1,53 @@
+body {
+
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1 {
+  color: #257bd1;
+}
+
+
+.interativo {
+  background: #20478b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#button{
+    color:blue;
+
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+.Explicaçao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 60vw;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 8px;
+    gap: 8px;
+}
+.Explicaçao>p {
+    color: gray;
+
+}
+.Explicaçao>h3 {
+    color: green;
+    text-align: center;
+}

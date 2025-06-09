@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 134, 25);
+    text-align: center;
+    height: 18vh;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+body {
+    background-color: rgb(126, 146, 89);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Nat {
+    background-color: green;
+    color: #fff;
+}
+
+#Aut {
+    background-color: red;
+    color: #fff;
+}
+
+#Tec {
+    background-color: aqua;
+    color: #fff;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50px;   
+}
+.Esplicaçao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 60vw;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 8px;
+    gap: 8px;
+}
+
+.Esplicaçao>p {
+    color: gray;
+
+}
+
+.Esplicaçao>h3 {
+    color: green;
+    text-align: center;
+}

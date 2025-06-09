@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-mono', monospace;
+}
+
+body {
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('../ASSETS/gifundo2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Card {
+    background-color: #dad2d2;
+    border-radius: 25px;
+    border-style: ridge;
+    padding: 20px;
+    height: 85vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ffffffd5;
+    outline: 2px solid #ffffff88;
+    outline-offset: 5px;
+    box-shadow: 3px -1px 53px 4px rgba(255, 255, 255, 0.75);
+    min-width: 375px;
+}
+
+#Portipar {
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    align-items: center;
+
+}
+
+#Portipar>h1 {
+    color: #fff;
+    letter-spacing: 0.3rem;
+    font-style: oblique;
+    font-size: 3.5rem;
+
+
+
+}
+
+#user {
+    height: 20px;
+    width: 20px;
+}
+
+#hashtag {
+    width: 90px;
+}
+
+#Foto {
+
+    width: 100%;
+    min-height: 80px;
+
+
+}
+
+.Foto {
+    display: flex;
+    width: 14vw;
+    height: 20vh;
+    height: 10vh;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.Name {
+    border-bottom: 2.5px solid;
+    border-color: gray;
+
+}
+
+button {
+    width: 200px;
+    min-width: 200px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height: 8vh;
+}
+
+#icon {
+    width: 160px;
+    height: 70px;
+}
